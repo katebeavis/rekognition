@@ -2,7 +2,7 @@
 
 Playing around with AWS Rekognition
 
-### To run
+## To run
 
 ``bundle install``
 
