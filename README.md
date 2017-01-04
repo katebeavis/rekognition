@@ -1,6 +1,6 @@
 # rekognition
 
-Playing around with AWS Rekognition
+Playing around with AWS Rekognition, currently you can get a list of labels (human, mobile phone, etc) and the 'confidence' percentage of that label's existence
 
 ## To run
 
