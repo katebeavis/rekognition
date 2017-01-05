@@ -2,7 +2,7 @@
 
 Playing around with AWS Rekognition, currently you can get a list of labels (human, mobile phone, etc) and the 'confidence' percentage of that label's existence
 
-## To run
+## To setup
 
 ``bundle install``
 
@@ -19,6 +19,8 @@ Read more about it here:
 https://aws.amazon.com/rekognition/pricing/
 
 And you're ready to go!
+
+## To run
 
 With an example image:
 
