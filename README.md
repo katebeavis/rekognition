@@ -18,7 +18,7 @@ Read more about it here:
 
 https://aws.amazon.com/rekognition/pricing/
 
-And you're ready to go!
+And you're ready to go! :clap:
 
 ## To run
 
