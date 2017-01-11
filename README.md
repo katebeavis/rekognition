@@ -8,11 +8,11 @@ Playing around with AWS Rekognition, currently you can get a list of labels (hum
 
 Add a .env file with your AWS credentials:
 
-``AWS_REGION=YOUR_REGION``
-
-``AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY``
-
-``AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY``
+```
+AWS_REGION=YOUR_REGION
+AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY
+AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
+```
 
 Read more about it here:
 
