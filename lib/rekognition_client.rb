@@ -20,6 +20,4 @@ class RekognitionClient
       puts "#{label.name}-#{label.confidence.to_i}"
     end
   end
-
-
 end
