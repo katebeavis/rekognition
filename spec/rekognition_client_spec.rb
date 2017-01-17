@@ -10,8 +10,13 @@ RSpec.describe RekognitionClient do
     expect(rekognition).to be_a(RekognitionClient)
   end
 
-  it 'returns an array of structs' do
-    stub_const('ARGV', [file])
-    expect(rekognition.get_labels).to be_a(Array)
+  describe '#get_labels' do
+
+    it 'returns an array of structs' do
+      VCR.use_cassette('get_labels') do
+        stub_const('ARGV', [file])
+        expect(rekognition.get_labels).to be_a(Array)
+      end
+    end
   end
 end
